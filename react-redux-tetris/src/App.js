@@ -4,6 +4,7 @@ import React from 'react';
 import GridBoard from './components/GridBoard';
 import NextBlock from './components/NextBlock';
 import ScoreBoard from './components/ScoreBoard';
+import Controls from './components/Controls';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <GridBoard />
       <NextBlock />
       <ScoreBoard />
+      <Controls />
     </div>
   );
 }
